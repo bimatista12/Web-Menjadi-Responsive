@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+  .social-media ul{
+      padding: 1.5rem 1rem;
+      margin: auto;
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+      background-color: #2d3e50;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+  }
+  
+  .social-media ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .container-content{
+    width: 50vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container-content {
+      width: 100vw;
+    }
+  }
+</style>
+
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid row">
+      <div class="col-md-6 d-flex justify-content-center">
+        <a class="navbar-brand" href="#"><img src="navbar dicoding.png" alt="" width="200"></a>
+      </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="col-md-6 d-flex justify-content-center">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            <a class="nav-link" href="#">Menu</a>
+            <a class="nav-link" href="#">Apa Yang Baru</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Kontak</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </nav>
+  
+      <!-- End of Navigation Bar -->
+      <main class="container-fluid d-flex justify-content-center align-items-center h-100 mt-5">
+        <div class="row container-content" style="">
+          <div class="col-md-6 row order-2 order-lg-1">
+            <div><h1 class="title">Dicoding Indonesia</h1></div>
+            <div><p>
+              Kami yakin pendidikan teknologi adalah fondasi bagi setiap bangsa agar menjadi yang terdepan dalam menghadapi dunia digital. Dicoding hadir sebagai platform pendidikan teknologi yang membantu menghasilkan talenta digital
+              berstandar global. Semua demi mengakselerasi Indonesia agar menjadi yang terdepan.
+            </p></div>
+            <div><div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary">Lebih Lanjut</button>
+            </div></div>
+          </div>
+          <div class="col-md-6 order-1 order-lg-2">  
+            <img class="rounded" width="300" src="dicoding.jpg" alt="Dicoding Indonesia" />        
+          </div>
+        </div>
+      </main>
+
+      <aside style="position: fixed; inset-block: 0; inset-inline-end: 0;">
+        <div class="social-media" style="height: 100%; display: flex;">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+  
+      <!-- Script -->
+  
+      <!-- FontAwesome - 6.4.0 -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+</html>
